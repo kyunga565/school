@@ -25,10 +25,11 @@ insert into student values (2,'µµ±úºñ','dkb@test.co.kr','2000-12-12'),(3,'±è°íÀº
 
 select * from student;
 
-select stud_id as studid , name,email,dob from student where stud_id = 2;
+select stud_id as studid ,name ,email ,dob from student where stud_id = 2;
 update student set name = '°øÀ¯', email='ky@test.co.kr',dob ='1977-05-05' where stud_id =2;
 
 delete from student where stud_id =3;
+
 select * from student;
 
 
